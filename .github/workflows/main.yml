@@ -1,0 +1,13 @@
+name: GitHub Actions Test
+
+on:
+  schedule:
+    - cron: '50,55 * * * *'
+
+jobs:
+  first-job:
+    name: first-job
+    runs-on: windows-latest
+    steps:
+    - name: here is step name
+      run: curl api.day.app/wUnFSXKAVwNknhS4tH3AV9/HelloWorld?automaticallyCopy=1
