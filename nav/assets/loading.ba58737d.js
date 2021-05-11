@@ -1,0 +1,1 @@
+import{s,e as o,n as a,o as e,h as t}from"./vendor.4ef9e6b8.js";import{s as m,g as r}from"./index.f79cac45.js";const c={expose:[],setup(c){const n=a(),i=t();return m(!0),r().then((o=>{m(!1),n.commit("setTags",o.tags),n.commit("setBookmarks",o.bookmarks),s((()=>{i.back()}))})),(s,a)=>(e(),o("div"))}};export default c;
