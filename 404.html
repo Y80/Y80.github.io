@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Single Page Apps for GitHub Pages</title>
+    <script type="text/javascript">
+      // pathname 为 https://username.github.io 后面的部分
+      const pathname = window.location.pathname
+
+      if (/^\/nav/.test(pathname)) {
+        const targetPath = pathname.split(pathname.split('/nav'))[0]
+
+        window.location.href = `/nav/index?targetPath=${encodeURIComponent(
+          targetPath
+        )}`
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
